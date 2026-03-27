@@ -1,16 +1,30 @@
-# React + Vite
+# MedStopLoss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing website for Medical Stop Loss insurance — educating employers and brokers on self-funded health plan protection.
 
-Currently, two official plugins are available:
+## Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home** — Value proposition and hero
+- **About** — Company overview
+- **Services** — Stop loss product details
+- **Brokers** — Broker resources and partnerships
+- **TPAs** — TPA integration info
+- **Resources** — Educational content and guides
+- **Contact** — Full contact form
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Deployed on AWS (via GitHub)
 
-## Expanding the ESLint configuration
+## Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev     # http://localhost:5173
+npm run build   # Production build → dist/
+```
+
+## Research
+
+Market research, competitor analysis, and deep-dive reports available in `docs/`.
